@@ -1,0 +1,29 @@
+{
+  "name": "MovilidadOperaciones",
+  "version": "0.1.0",
+  "description": "Aplicacion movil Cordova y AngularJs",
+  "dependencies": {
+    "angular": "~1.4.9",
+    "angular-animate": "~1.4.9",
+    "angular-cache": "~4.4.3",
+    "angular-local-storage": "~0.2.3",
+    "angular-retina": "~0.3.3",
+    "angular-touch": "~1.4.9",
+    "angular-ui-router": "~0.2.17",
+    "ngConnectis": "https://gitlab.connectis-ict.es/arquitectura/ngConnectis.git#~0.4.0",
+    "ngCordova": "~0.1.24-alpha",
+    "ocModal": "~0.1.12"
+  },
+  "overrides": {
+    "ocModal": {
+      "main": [
+        "dist/ocModal.min.js",
+        "dist/css/ocModal.animations.min.css",
+        "dist/css/ocModal.full.min.css"
+      ]
+    }
+  },
+  "resolutions": {
+    "angular": "~1.4.9"
+  }
+}
